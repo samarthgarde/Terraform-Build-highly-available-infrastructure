@@ -1,1 +1,6 @@
-
+# Build highly available infrastructure using Terraform
+---
+This project involved the creation of a virtual private cloud (VPC) and associated infrastructure using the Infrastructure as Code tool, Terraform. The aim was to create a reliable and scalable environment to host a static website. To achieve this, I first created a VPC and then created subnets in two different availability zones. I also set up a NAT gateway and an internet gateway to enable communication between the VPC and the internet. In addition, I created EC2 instances in each of the subnets, with Apache server installed using user data scripts to host the static website.
+---
+## Architecture
+![architecture](https://private-user-images.githubusercontent.com/69889600/248738242-d59c8547-63e1-4535-bc56-757faa0a54d0.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjUzNTUyODksIm5iZiI6MTc2NTM1NDk4OSwicGF0aCI6Ii82OTg4OTYwMC8yNDg3MzgyNDItZDU5Yzg1NDctNjNlMS00NTM1LWJjNTYtNzU3ZmFhMGE1NGQwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjEwVDA4MjMwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY3ODk3NTAyNjg5NmY4N2E4ZmQ0NWEzMDYxNjRmNzMzNGY1ODg4ZmI2M2ZhOTI5NmIwNmIwN2QyN2NhMTUyMTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.IVx25BfIUdWVPBsvjP05kndUK4rCbupvEgLzYwCmsI0)
