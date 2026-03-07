@@ -5,4 +5,4 @@ This project involved the creation of a virtual private cloud (VPC) and associat
 ## Architecture
 ![architecture](Images/aws_architecture.png)
 
-![architecture1](Images/aws_architecture1.png)
+![architecture1](Images/aws_architechture1.png)
